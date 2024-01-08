@@ -1,0 +1,47 @@
+#game div {
+  border: 1px solid black;
+  width: 15%;
+  height: 200px;
+  margin: 10px;
+  display: inline-block;
+}
+#current-score{
+  background-color: rgb(60, 60, 226);
+  color: white;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border-style: none;
+}
+h2{
+  display: inline;
+}
+#start-screen h1{
+  color: white;
+}
+#start-screen{
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(33, 39, 213);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
+}
+#start-button{
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* justify-self: center; */
+  margin-left: 40vw;
+  margin-right: 40vw;
+}
+
+#restart-game button{
+  background-color: rgb(2,158,255);
+  color: white;
+  border: none;
+  height: 36px;
+  width: 70px;
+  border-radius: 18px;
+}
